@@ -7,6 +7,6 @@ function logDriversByHometown(drivers, hometown){
   return drivers.forEach(function (el, i ,arry) {if (el.hometown === hometown) {console.log(el.name);}});
 }
 
-function driversByRevenue(driver){
-  driver.sort(function (a,b) { return a.revenue - b.revenue; });
+function driversByRevenue(drivers){
+  drivers.sort(function (a,b) { return a.revenue - b.revenue; });
 }
