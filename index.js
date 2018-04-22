@@ -16,3 +16,7 @@ function driversByName(drivers){
   let driversCopy = drivers.slice();
   return driversCopy.sort(function (a,b) {return a.name.localeCompare(b.name); });
 }
+
+function totalRevenue(){
+
+}
