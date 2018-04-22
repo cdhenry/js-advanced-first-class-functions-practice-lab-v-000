@@ -8,6 +8,6 @@ function logDriversByHometown(drivers, hometown){
 }
 
 function driversByRevenue(drivers){
-  let driversCopy = drivers.slice(0);
+  let driversCopy = drivers.slice();
   return driversCopy.sort(function (a,b) { return a.revenue - b.revenue; });
 }
