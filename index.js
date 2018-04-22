@@ -4,7 +4,7 @@ function logDriverNames(drivers){
 }
 
 function logDriversByHometown(drivers, hometown){
-  return drivers.forEach(function (el, i ,arry) {if (el.hometown === hometown) {console.log(el.name);}});
+  return drivers.forEach(function (el, i ,arry) {if (el.hometown === hometown) { console.log(el.name); } });
 }
 
 function driversByRevenue(drivers){
