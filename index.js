@@ -5,9 +5,9 @@ function logDriverNames(drivers){
 
 function logDriversByHometown(drivers, hometown){
   return drivers.forEach(function (el, i ,arry) {
-    if (el.hometown === hometown) { 
-      console.log(el.name); 
-    } 
+    if (el.hometown === hometown) {
+      console.log(el.name);
+    }
   });
 }
 
@@ -22,5 +22,5 @@ function driversByName(drivers){
 }
 
 function totalRevenue(drivers){
-  return drivers.reduce( function (agg, el, i, arr) {  });
+  return drivers.reduce( function (agg, el, i, arr) { return agg + el.revenue }, 0 );
 }
