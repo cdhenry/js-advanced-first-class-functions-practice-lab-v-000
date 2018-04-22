@@ -8,12 +8,12 @@ function logDriversByHometown(drivers, hometown){
 }
 
 function driversByRevenue(drivers){
-  let driversCopy = drivers.slice();
+  const driversCopy = drivers.slice();
   return driversCopy.sort(function (a,b) { return a.revenue - b.revenue; });
 }
 
 function driversByName(drivers){
-  let driversCopy = drivers.slice();
+  const driversCopy = drivers.slice();
   return driversCopy.sort(function (a,b) {return a.name.localeCompare(b.name); });
 }
 
